@@ -21,4 +21,8 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void identification(String name, int age) {
+        System.out.println(this.name + " " + age );
+    }
 }
