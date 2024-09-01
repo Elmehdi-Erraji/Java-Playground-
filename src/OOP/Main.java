@@ -5,7 +5,10 @@ public class Main {
 
         System.out.println("Welcome to the Carbon Consumption Management System!");
         System.out.println("Welcome to the Carbon Consumption Management System!");
-      
+        System.out.println("Welcome to the Carbon Consumption Management System!");
+        System.out.println("Welcome to the Carbon Consumption Management System!");  System.out.println("Welcome to the Carbon Consumption Management System!");
+        System.out.println("Welcome to the Carbon Consumption Management System!");  System.out.println("Welcome to the Carbon Consumption Management System!");
+        System.out.println("Welcome to the Carbon Consumption Management System!");
 
 
 
