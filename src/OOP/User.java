@@ -47,32 +47,6 @@ public class User {
     }
 
     private String generateUniqueId(){
-        return String.format("%04d", (int)(Math.random() * 10000)); // Corrected typo
-    }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        // Create a User object
-        User user = new User("Alice", 30);
-
-        // Display user details
-        System.out.println("User created:");
-        System.out.println("Name: " + user.getName());
-        System.out.println("Age: " + user.getAge());
-        System.out.println("User ID: " + user.getUserId());
-
-        // Create some Carbon records
-        Carbon record1 = new Carbon("2024-09-01", 50.0);
-        Carbon record2 = new Carbon("2024-09-02", 30.5);
-
-        // Add Carbon records to the user
-        user.addCarbonRecord(record1);
-        user.addCarbonRecord(record2);
-
-        // Display Carbon records
-        System.out.println("\nCarbon Records:");
-        for (Carbon carbon : user.getCarbonRecords()) {
-            System.out.println("Date: " + carbon.getDate() + ", Amount: " + carbon.getAmount());
-        }
+        return String.format("%04d", (int)(Math.random() * 10000)); // Generates a 4-digit unique ID
     }
 }
